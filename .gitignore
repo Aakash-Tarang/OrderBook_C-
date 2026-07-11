@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Executables
+benchmark
+server
+client
+a.out
+
+# Object files
+*.o
+*.out
+
+# Debug symbols
+*.dSYM/
+
+# Temporary files
+*.swp
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/

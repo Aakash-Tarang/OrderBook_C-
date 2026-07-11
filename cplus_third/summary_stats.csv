@@ -1,0 +1,7 @@
+phase,workload,total_samples,filtered_samples,mean_ns,p50_ns,p90_ns,p99_ns,min_ns,max_ns
+phase1_priority_queue,dense,295000,272737,42.5078,42,84,167,0,167
+phase2_tick_vector,dense,295000,282539,58.3569,42,125,209,0,209
+phase3_map_list,dense,295000,292260,120.89,83,333,500,0,542
+phase1_priority_queue,sparse,148000,137023,42.019,42,84,167,0,167
+phase2_tick_vector,sparse,148000,121232,2165.18,125,584,33583,0,34917
+phase3_map_list,sparse,148000,146313,113.219,83,292,459,0,500
