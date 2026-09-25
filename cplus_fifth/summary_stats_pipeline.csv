@@ -1,0 +1,2 @@
+phase,total_samples,filtered_samples,mean_ns,p50_ns,p90_ns,p99_ns,min_ns,max_ns
+spsc_pipeline,495000,288813,41.6672,42,42,42,41,42
