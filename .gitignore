@@ -1,26 +1,43 @@
-# macOS
-.DS_Store
+# ── Build directories ────────────────────────────────────────────────────────
+build/
+build-*/
+cmake-build-*/
 
-# Executables
-benchmark
-server
-client
-a.out
-
-# Object files
+# ── Compiled binaries ─────────────────────────────────────────────────────────
 *.o
 *.out
+*.a
+matching_engine
+ob_bench
+ob_tests
+a.out
 
-# Debug symbols
-*.dSYM/
+# ── Regenerable data (recreate with scripts/generate_market_data.py) ─────────
+data/market_data.csv
+data/market_data.bin
 
-# Temporary files
-*.swp
-*~
+# ── Regenerable benchmark output (recreate with ob_bench / matching_engine) ──
+results/*_raw.csv
 
-# Python cache
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 *.pyc
+.venv/
 
-# VS Code
+# ── LaTeX ─────────────────────────────────────────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# ── Editors / OS ──────────────────────────────────────────────────────────────
 .vscode/
+.idea/
+.DS_Store
+*.swp
+*~
